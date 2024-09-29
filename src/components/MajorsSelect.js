@@ -5,7 +5,7 @@ const MajorsSelect = () => {
   const [major, setMajor] = useState('');
   const navigate = useNavigate();
 
-  // Updated list of major options
+  
   const majorOptions = [
     "Computer Science",
     "Biology",
@@ -23,8 +23,8 @@ const MajorsSelect = () => {
     "Philosophy",
     "Political Science",
     "Psychology",
-    "Religious Studies (Isl)", // Islamic Studies
-    "Religious Studies (Crst)", // Christian Studies
+    "Religious Studies (Isl)", 
+    "Religious Studies (Crst)", 
     "Sociology",
     "Statistics",
     "Urdu",
